@@ -20,7 +20,7 @@
         <item name="android:windowBackground">@android:color/transparent</item>
     </style>
 
-    <style name="SheetDialog" parent="Theme.Material3.Light.BottomSheetDialog">
+    <style name="SheetDialog" parent="Theme.MaterialComponents.Light.BottomSheetDialog">
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:colorBackground">@android:color/transparent</item>
