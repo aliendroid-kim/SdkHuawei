@@ -2,10 +2,12 @@ package com.aliendroid.alienads;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.RatingBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -19,6 +21,9 @@ import com.huawei.hms.ads.nativead.DislikeAdListener;
 import com.huawei.hms.ads.nativead.NativeAd;
 import com.huawei.hms.ads.nativead.NativeAdConfiguration;
 import com.huawei.hms.ads.nativead.NativeAdLoader;
+
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class AliendroidNative {
@@ -414,4 +419,52 @@ public class AliendroidNative {
 
     }
 
+    public static void SmallNativeFan(Activity activity, RelativeLayout layNative, String selectAdsBackup, String nativeId, String idNativeBackup) {
+
+    }
+
+    public static void SmallNativeStartApp(Activity activity, RelativeLayout layNative, String selectAdsBackup, String nativeId, String idNativeBackup) {
+    }
+
+    public static void MediumNativeStartApp(Activity activity, RelativeLayout layNative, String selectAdsBackup, String nativeId, String idNativeBackup) {
+
+    }
+
+    public static void MediumNativeAdmob(Activity activity, RelativeLayout layNative, String selectAdsBackup, String nativeId, String idNativeBackup, String Hpk1,
+                                         String Hpk2, String Hpk3, String Hpk4, String Hpk5) {
+
+    }
+
+    public static void MediumNativeFan(Activity activity, RelativeLayout layNative, String selectAdsBackup, String nativeId, String idNativeBackup) {
+
+    }
+
+    public static void MediumNativeAlien(Activity activity, RelativeLayout layNative, String selectAdsBackup, String nativeId, String idNativeBackup) {
+
+    }
+    public static void SmallNativeAlien(Activity activity, RelativeLayout layNative, String selectAdsBackup, String nativeId, String idNativeBackup) {
+    }
+
+    public static void SmallNativeFanRectangle(Activity activity, RelativeLayout layNative, String selectAdsBackup, String nativeId, String idNativeBackup) {
+
+    }
+
+    public static void SmallNativeAlienRectangle(Activity activity, RelativeLayout layNative, String selectAdsBackup, String nativeId, String idNativeBackup) {
+    }
+
+    //Rectangle
+    public static void SmallNativeStartAppRectangle(Activity activity, RelativeLayout layNative, String selectAdsBackup, String nativeId, String idNativeBackup) {
+
+    }
+    public static void SmallNativeWortise(Activity activity, RelativeLayout layNative, String selectAdsBackup, String nativeId, String idNativeBackup
+    ) {
+
+    }
+    public static void MediumNativeWortise(Activity activity, RelativeLayout layNative, String selectAdsBackup, String nativeId, String idNativeBackup) {
+
+    }
+
+    public static void SmallNativeWortiseRectangle(Activity activity, RelativeLayout layNative, String selectAdsBackup, String nativeId, String idNativeBackup) {
+
+    }
 }

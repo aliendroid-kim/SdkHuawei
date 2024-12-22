@@ -1,11 +1,9 @@
 apply plugin: 'com.android.library'
 android {
-    compileSdkVersion 31
+    compileSdkVersion 34
     defaultConfig {
-        minSdkVersion 19
-        targetSdkVersion 31
-        versionCode 2
-        versionName "Pluto-01"
+        minSdkVersion 21
+        targetSdkVersion 34
         multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -33,11 +31,6 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
     implementation "androidx.multidex:multidex:2.0.1"
     implementation 'com.google.android.material:material:1.5.0'
-    implementation 'com.huawei.hms:ads-lite:13.4.45.308'
-    implementation 'com.huawei.hms:ads-consent:3.4.45.308'
-
-
-    implementation 'com.flurry.android:analytics:13.0.1'
-
+    implementation 'com.huawei.hms:ads-prime:3.4.76.300'
 
 }

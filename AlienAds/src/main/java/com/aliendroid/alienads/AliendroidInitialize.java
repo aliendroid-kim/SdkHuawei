@@ -40,5 +40,18 @@ public class AliendroidInitialize {
 
     }
 
+    public static void SelectAdsAdmobTargeting(Activity activity, String selectAdsBackup, String idInitialize, String type) {
+    }
+
+    public static void SelectAdsAlienView(Activity activity, String selectAdsBackup, String idInitializeBackupAds) {
+    }
+
+    public static void SelectAdsAlienMediation(Activity activity, String selectAdsBackup, String idInitialize, String idInitializeBackupAds) {
+
+    }
+
+    public static void SelectAdsWortise(Activity activity, String selectAdsBackup, String idInitialize, String idInitializeBackupAds) {
+
+    }
 
 }

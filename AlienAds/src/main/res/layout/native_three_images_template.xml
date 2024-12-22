@@ -87,13 +87,13 @@
             <Button
                 android:id="@+id/ad_call_to_action"
                 android:layout_width="72dp"
-                android:layout_height="26dp"
+                android:layout_height="32dp"
                 android:layout_alignParentEnd="true"
                 android:layout_marginTop="12dp"
                 android:layout_marginEnd="40dp"
                 android:background="@drawable/native_button_rounded_corners_shape"
                 android:textColor="#FFFFFF"
-                android:textSize="10sp" />
+                android:textSize="8sp" />
         </RelativeLayout>
     </LinearLayout>
 </com.huawei.hms.ads.nativead.NativeView>

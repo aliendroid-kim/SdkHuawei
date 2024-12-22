@@ -1,13 +1,8 @@
 package com.aliendroid.alienads;
 
 
-
 import android.app.Activity;
-import android.os.Bundle;
-import android.util.DisplayMetrics;
-import android.view.Display;
 import android.widget.RelativeLayout;
-
 
 import com.huawei.hms.ads.AdParam;
 import com.huawei.hms.ads.BannerAdSize;
@@ -61,6 +56,25 @@ public class AliendroidBanner {
     public static void SmallBannerUnity(Activity activity, RelativeLayout layAds, String selectAdsBackup, String idBanner, String idBannerBackup) {
     }
 
+    public static void SmallBannerAlienView(Activity activity, RelativeLayout layAds, String selectAdsBackup, String idBanner, String idBannerBackup) {
 
+    }
+
+    public static void SmallBannerAlienMediation(Activity activity, RelativeLayout layAds, String selectAdsBackup, String idBanner, String idBannerBackup) {
+    }
+
+    public static void SmallCollapsibleAdmobTop(Activity activity, RelativeLayout layAds, String selectAdsBackup, String idBanner, String idBannerBackup, String Hpk1,
+                                                String Hpk2, String Hpk3, String Hpk4, String Hpk5) {
+
+    }
+
+    public static void SmallCollapsibleAdmobBottom(Activity activity, RelativeLayout layAds, String selectAdsBackup, String idBanner, String idBannerBackup, String Hpk1,
+                                                   String Hpk2, String Hpk3, String Hpk4, String Hpk5) {
+
+    }
+
+    public static void SmallBannerWortise(Activity activity, RelativeLayout layAds, String selectAdsBackup, String idBanner, String idBannerBackup) {
+
+    }
 
 }

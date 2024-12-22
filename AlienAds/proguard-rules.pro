@@ -27,3 +27,5 @@
 -keep public class com.facebook.ads.** {*;}
 -keep public class com.facebook.ads.**
 { public protected *; }
+-keep class com.huawei.openalliance.ad.** { *; }
+-keep class com.huawei.hms.ads.** { *; }

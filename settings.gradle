@@ -1,3 +1,11 @@
 rootProject.name = "SdkHuawei"
 include ':app'
 include ':AlienAds'
+
+dependencyResolutionManagement {
+    repositories {
+        maven {
+            url 'https://developer.huawei.com/repo/'
+        }
+    }
+}

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.huawei.hms.ads.nativead.NativeView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:progress_button="http://schemas.android.com/apk/res-auto"
     android:id="@+id/native_app_download_button_view"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -69,10 +70,9 @@
             android:layout_alignParentEnd="true">
 
             <com.huawei.hms.ads.AppDownloadButton
-                xmlns:progress_button="http://schemas.android.com/apk/res-auto"
                 android:id="@+id/app_download_btn"
-                android:layout_width="72dp"
-                android:layout_height="26dp"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
                 android:layout_alignParentEnd="true"
                 android:layout_marginTop="23dp"
                 android:layout_marginEnd="52dp"

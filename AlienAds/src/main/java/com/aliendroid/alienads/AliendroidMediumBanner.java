@@ -16,7 +16,6 @@ public class AliendroidMediumBanner {
     public static void MediumBannerAdmob(Activity activity, RelativeLayout layAds, String selectAdsBackup, String idBanner, String idBannerBackup, String Hpk1,
                                          String Hpk2, String Hpk3, String Hpk4, String Hpk5) {
 
-
         HwAds.init(activity);
         bannerView = new BannerView(activity);
         bannerView.setAdId(idBanner);
@@ -62,4 +61,6 @@ public class AliendroidMediumBanner {
     public static void MediumBannerUnity(Activity activity, RelativeLayout layAds, String selectAdsBackup, String idBanner, String idBannerBackup) {
     }
 
+    public static void MediumBannerAlienMediation(Activity activity, RelativeLayout layAds, String selectAdsBackup, String idBanner, String idBannerBackup) {
+    }
 }

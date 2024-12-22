@@ -69,8 +69,8 @@
 
             <Button
                 android:id="@+id/ad_call_to_action"
-                android:layout_width="44dp"
-                android:layout_height="@dimen/hiad_16_dp"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
                 android:layout_alignParentEnd="true"
                 android:layout_marginTop="34dp"
                 android:background="@drawable/native_button_rounded_corners_shape"
